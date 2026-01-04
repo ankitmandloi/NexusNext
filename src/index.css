@@ -13,6 +13,10 @@
     --ring: 240 5% 64.9%;
   }
 
+  html {
+    font-size: 16px;
+  }
+
   * {
     @apply border-zinc-200;
   }
