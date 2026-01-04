@@ -12,7 +12,7 @@ export const clearAuthTokenProvider = () => {
   tokenProvider = () => undefined;
 };
 
-const baseURL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:4001/api';
+const baseURL = import.meta.env.VITE_API_BASE_URL ?? 'https://backend-pms-obiy.onrender.com/api';
 
 const api: AxiosInstance = axios.create({
   baseURL,
